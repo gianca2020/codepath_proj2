@@ -1,0 +1,24 @@
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px; /* or 100vh for full screen */
+}
+
+.arrows-container {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.center-text {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.center-text h1 {
+  font-family: 'Impact', 'Arial Black'; 
+  letter-spacing: 3px;
+  font-size: 4.5rem;
+  color: #d10b0a; /* Optional: UFC red */
+}
